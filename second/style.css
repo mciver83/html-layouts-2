@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	background: lightgray;
+	font-family: sans-serif;
+	padding-top: 5%;
+}
+
+div {
+	background: white;
+	margin: 0% 7.5% 5% 7.5%;
+	width: 85%;
+	padding: 5%;
+}
+
+div div {
+	margin: 0;
+	margin-bottom: 5%;
+}
+
+button {
+	height: 40px;
+	width: 100px;
+	color: white;
+	font-size: 20px;
+	border: none;
+	margin: 5% 2.5% 0 0;
+}
+
+.one {
+	background: red;
+}
+
+.two {
+	background: blue;
+}
+
+.image {
+	width: 100%;
+	height: 200px;
+	background: #444;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 80px;
+}
+
+footer{
+	width: 100%;
+	background: #444;
+	margin-top: 5%;
+	color: white;
+	padding: 1%;
+	padding-right: 5%;
+	position: fixed;
+	bottom: 0;
+}
+
+footer ul {
+	text-align: right;
+	list-style: none;
+}
+
+footer li {
+	display: inline;
+	padding: 2.5%;
+}
+
