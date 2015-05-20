@@ -8,20 +8,18 @@ html, body {
 	margin: 0;
 }
 
+
 header {
+	margin: 3%;
 	height: 100px;
-	width: 100%;
-	margin: 2.5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
-header div {
+.menu {
 	height: 100%;
 	width: 30%;
-	float: left;
-}
-
-header .one, header .two {
-	margin-right: 2.5%;
 }
 
 
@@ -38,8 +36,9 @@ header .one, header .two {
 }
 
 main {
-	margin: 2.5%;
+	margin: 3%;
 }
+
 main div{
 	height: 200px;
 }
@@ -56,26 +55,27 @@ main .two {
 }
 
 footer {
-	margin: 2.5%;
-	position: relative;
+	margin: 3%;
+	width: 94%;
 	height: 100px;
-}
-
-footer div {
-	height: 100%;
+	position: absolute;
+	bottom: 0;
 }
 
 footer .one {
-	position: absolute;
-	top: 0;
-	right: 0;
+	height: 100%;
 	width: 33.33%;
+	position: absolute;
+	right: 0;
+	display: flex;
+	justify-content: center;
+f
 }
 
 footer .three {
-	position: absolute;
-	width: 70%;
-	margin-left: 15%;
+	width: 80%;
+	height: 100%;
 }
+
 
 
